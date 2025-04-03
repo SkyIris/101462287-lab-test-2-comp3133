@@ -1,0 +1,15 @@
+<html>
+<table>
+    <tr>
+      <th>Name</th>
+      <th>House</th>
+      <th>Image</th>
+    </tr>
+    <tr *ngFor="let character of characterList">
+      <td>{{character.name}}</td>
+      <td>{{character.house}}</td>
+      <td><img src={{character.image}}></td>
+    </tr>
+  </table>
+
+  </html>

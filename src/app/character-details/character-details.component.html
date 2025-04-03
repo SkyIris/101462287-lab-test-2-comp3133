@@ -1,0 +1,23 @@
+<html>
+<table>
+    <tr>
+      <th>Name</th>
+      <th>House</th>
+      <th>Image</th>
+    </tr>
+    <tr *ngFor="let character of characterDetails">
+      <td>{{character.name}}</td>
+      <td>{{character.species}}</td>
+      <td><img src={{character.image}}></td>
+      <td>{{character.house}}</td>
+      <td>{{character.wizard}}</td>
+      <td>{{character.ancestry}}</td>
+      <td>{{character.wand}}</td>
+      <td>{{character.wand.wood}}</td>
+      <td>{{character.wand.core}}</td>
+      <td>{{character.wand.length}}</td>
+      <td>{{character.actor}}</td>
+    </tr>
+  </table>
+
+  </html>
